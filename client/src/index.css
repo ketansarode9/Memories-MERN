@@ -1,0 +1,11 @@
+body {
+    /* background-color: rgba(0,183,255, 1); */
+      /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url("https://www.edreams.com/blog/wp-content/uploads/sites/3/2016/03/cities-travel.gif");
+}
