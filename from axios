@@ -1,0 +1,60 @@
+[33mcommit 0bbea0220bc8970ae59bba758770a107a96ee72c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: ketansarode9 <ketan.sarode47@gmail.com>
+Date:   Mon Feb 14 23:28:45 2022 +0530
+
+    added files for auth - sign-in/up
+
+[33mcommit 80309950f3a31e80b249c1350f36c40b364fbf94[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: ketansarode9 <ketan.sarode47@gmail.com>
+Date:   Fri Feb 11 23:17:53 2022 +0530
+
+    changes in APP.JS
+
+[33mcommit d9ac58f1593d4eca81ecea5d28f1255bb03cea89[m
+Author: ketansarode9 <ketan.sarode47@gmail.com>
+Date:   Thu Feb 10 21:44:44 2022 +0530
+
+    changes in server/controllers/post.js
+
+[33mcommit 63dc63cb28a9f922a0da457659128ebbec55944c[m
+Author: ketansarode9 <ketan.sarode47@gmail.com>
+Date:   Wed Feb 9 21:09:19 2022 +0530
+
+    changes in POSTS/post.js
+
+[33mcommit 24d1ceac603e75d3185de7e9d45d186f5ce607a9[m
+Author: ketansarode9 <ketan.sarode47@gmail.com>
+Date:   Tue Feb 8 21:16:31 2022 +0530
+
+    changes in Form.js
+
+[33mcommit 00b90d8e5434608ba96bb59e4ab12167a0ca16bc[m
+Author: ketansarode9 <ketan.sarode47@gmail.com>
+Date:   Mon Feb 7 00:14:25 2022 +0530
+
+    :tada:Created fully Working model with all the basic functionality
+
+[33mcommit aee11562cc4cf8ca8267229db58f9c90278e054d[m
+Merge: 2f59225 e110f01
+Author: ketansarode9 <ketan.sarode47@gmail.com>
+Date:   Sun Feb 6 19:04:36 2022 +0530
+
+    Merge branch 'master' of https://github.com/ketansarode9/Memories-MERN
+
+[33mcommit 2f592250bf3de7e1a05367f1c777c8032eba21ff[m
+Author: ketansarode9 <ketan.sarode47@gmail.com>
+Date:   Sun Feb 6 18:38:44 2022 +0530
+
+    added like/del functionality
+
+[33mcommit e110f0152ebbf7f8bbc8dd0624851852299d851a[m
+Author: Ketan Sarode <60593565+ketansarode9@users.noreply.github.com>
+Date:   Fri Feb 4 16:51:15 2022 +0530
+
+    Create README.md
+
+[33mcommit 963e9e5fad7c46d3a8a052386145b93f3ba3cf75[m
+Author: ketansarode9 <ketan.sarode47@gmail.com>
+Date:   Fri Feb 4 13:42:49 2022 +0530
+
+    First working fronten-backend run
