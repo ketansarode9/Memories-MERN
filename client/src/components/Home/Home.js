@@ -9,7 +9,7 @@ import Form from '../Form/Form';
 const Home = () => {
   const [currentId, setCurrentId] = useState(0);
   const dispatch = useDispatch();
-
+  console.log("in HOME .JS");
   useEffect(() => {
     dispatch(getPosts());
   }, [currentId, dispatch]);
