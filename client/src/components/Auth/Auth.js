@@ -11,6 +11,9 @@ import { AUTH } from '../../constants/actionTypes';
 import useStyles from './styles';
 import Input from './Input';
 
+import dotenv from 'dotenv';
+dotenv.config();
+const GoogleClientId = process.env.GoogleClientId;
 const initialState = { firstName: '', lastName: '', email: '', password: '', confirmPassword: '' };
 
 const SignUp = () => {
@@ -80,7 +83,7 @@ const SignUp = () => {
             { isSignup ? 'Sign Up' : 'Sign In' }
           </Button>
           <GoogleLogin
-            clientId="820638296702-5t9mkcj359betp50os0pvd7d62ov9smo.apps.googleusercontent.com"
+            clientId={GoogleClientId}
             render={(renderProps) => (
               <Button className={classes.googleButton} color="primary" fullWidth onClick={renderProps.onClick} disabled={renderProps.disabled} startIcon={<Icon />} variant="contained">
                 Google Sign In

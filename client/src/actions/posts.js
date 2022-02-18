@@ -6,6 +6,7 @@ export const getPosts = () => async (dispatch) => {
   try {
     const { data } = await api.fetchPosts(); // localhost:5000 has been fetched i.e - req sent to backend-server
     console.log("in client - getposts req");   
+    console.log(data);
 
     dispatch({ type: FETCH_ALL, payload: data });   // store.dispatch({ type: FETCH_ALL, payload: data }); (MODERN WAY-MIIDLEWARE)
   } catch (error) {
