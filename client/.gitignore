@@ -11,7 +11,8 @@
 
 # production
 /build
-
+#GoogleID
+/src/components/Auth/GoogleId.js
 # misc
 .DS_Store
 .env.local

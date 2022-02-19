@@ -8,12 +8,11 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Icon from './icon';
 import { signin, signup } from '../../actions/auth';
 import { AUTH } from '../../constants/actionTypes';
+import { GID } from './GoogleId';
 import useStyles from './styles';
 import Input from './Input';
 
-import dotenv from 'dotenv';
-dotenv.config();
-const GoogleClientId = process.env.GoogleClientId;
+const GoogleClientId = GID;
 const initialState = { firstName: '', lastName: '', email: '', password: '', confirmPassword: '' };
 
 const SignUp = () => {
